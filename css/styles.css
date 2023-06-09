@@ -1,0 +1,136 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    
+}
+p{
+    font-family:  'sans-serift';
+    color: #8f8f8f;
+   
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+/* download buttons */
+.dow-btn{
+    margin: 5% 3% 5% 0;
+}
+/* chick image */
+.chick-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.f-1{
+    padding: 5%;
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonials */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+     color: #fff; 
+}
+.dogesh-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    
+}
+.press-img{
+ width: 15%;
+ margin: 20px 20px;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media (max-width:994px){
+    .chick-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    /* margin: 10% 0 10% 0; */
+    padding: 7% 15% ;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social{
+    margin: 20px 10px;
+}
